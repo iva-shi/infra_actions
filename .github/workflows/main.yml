@@ -61,7 +61,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: kosmolet/ваш-репозиторий-на-docker-hub:latest 
+          tags: kosmolet/infra_actions:latest 
 
   deploy:
     runs-on: ubuntu-latest
